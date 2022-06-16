@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="window created">
-      <change afterPath="$PROJECT_DIR$/src/Book/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book/Title.java" afterDir="false" />
+    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="window te main page add korci .main page title ar object create koreci">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/Title.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655376452076</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="window te main page add korci .main page title ar object create koreci">
+      <created>1655382464250</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655382464250</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +95,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting" />
     <MESSAGE value="window created" />
-    <option name="LAST_COMMIT_MESSAGE" value="window created" />
+    <MESSAGE value="window te main page add korci .main page title ar object create koreci" />
+    <option name="LAST_COMMIT_MESSAGE" value="window te main page add korci .main page title ar object create koreci" />
   </component>
 </project>

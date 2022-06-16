@@ -6,7 +6,7 @@ public class MainPage extends JPanel {
     Title Header=new Title();
     public MainPage(){
         setLayout(null);
-        setSize(1000,700);
+        setBounds(0,0,1000,700);
         add(Header);
     }
 }
