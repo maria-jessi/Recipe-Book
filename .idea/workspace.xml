@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="">
+    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="font and colour create kora hoice.&#10;Title ar setBounds change kora hoice">
+      <change afterPath="$PROJECT_DIR$/src/Test/Program.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/Title.java" afterDir="false" />
     </list>
@@ -84,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655383314990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="font and colour create kora hoice.&#10;Title ar setBounds change kora hoice">
+      <created>1655387390626</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655387390635</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +112,7 @@
     <MESSAGE value="window created" />
     <MESSAGE value="window te main page add korci .main page title ar object create koreci" />
     <MESSAGE value="Main page and title a setBounds add kora hoice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main page and title a setBounds add kora hoice" />
+    <MESSAGE value="font and colour create kora hoice.&#10;Title ar setBounds change kora hoice" />
+    <option name="LAST_COMMIT_MESSAGE" value="font and colour create kora hoice.&#10;Title ar setBounds change kora hoice" />
   </component>
 </project>
