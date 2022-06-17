@@ -35,6 +35,9 @@ public class MainPage extends JPanel {
         foodList.setFont(new Font("Serif", Font.BOLD, 20));
         ingredientsText.setBounds(25,200,405,400);
         procedureText.setBounds(455,65,510,570);
+        procedureText.setFont(new Font("Serif",Font.BOLD,20));
+        ingredientsText.setFont(new Font("Serif",Font.BOLD,20));
+
 
 
         foodName.add("rice");
