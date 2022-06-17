@@ -1,15 +1,16 @@
 package Book;
 
 import javax.swing.*;
+import java.util.ArrayList;
 
 public class MainPage extends JPanel {
     Title Header=new Title();
     Label label1=new Label("Name",30,80);
+    ArrayList<String> foodName = new ArrayList<>();
     public MainPage(){
         setLayout(null);
         setBounds(0,0,1000,700);
         add(Header);
         add(label1);
-
     }
 }
