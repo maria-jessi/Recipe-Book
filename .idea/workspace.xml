@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="Label class created">
+    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="&#10;Label1 added.&#10;ArrayList foodName create kora hoice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655463814880</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Label class created">
+      <created>1655463993309</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655463993309</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&#10;Label1 added.&#10;ArrayList foodName create kora hoice">
+      <created>1655464387047</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655464387047</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +144,7 @@
     <MESSAGE value="font and colour create kora hoice.&#10;Title ar setBounds change kora hoice" />
     <MESSAGE value="Title &#10;Font, Colour, Size, and Position change kora hoice" />
     <MESSAGE value="Label class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Label class created" />
+    <MESSAGE value="&#10;Label1 added.&#10;ArrayList foodName create kora hoice" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Label1 added.&#10;ArrayList foodName create kora hoice" />
   </component>
 </project>
