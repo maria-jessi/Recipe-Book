@@ -9,6 +9,7 @@ public class MainPage extends JPanel {
         setLayout(null);
         setBounds(0,0,1000,700);
         add(Header);
+        add(label1);
 
     }
 }

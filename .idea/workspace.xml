@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="Title &#10;Font, Colour, Size, and Position change kora hoice">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book/Label.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="Label class created">
       <change beforePath="$PROJECT_DIR$/src/Book/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655388461644</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Label class created">
+      <created>1655463814868</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655463814880</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +128,7 @@
     <MESSAGE value="Main page and title a setBounds add kora hoice" />
     <MESSAGE value="font and colour create kora hoice.&#10;Title ar setBounds change kora hoice" />
     <MESSAGE value="Title &#10;Font, Colour, Size, and Position change kora hoice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Title &#10;Font, Colour, Size, and Position change kora hoice" />
+    <MESSAGE value="Label class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Label class created" />
   </component>
 </project>
