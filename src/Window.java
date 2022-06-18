@@ -8,6 +8,8 @@ public class Window extends JFrame {
     public Window(){
         setSize(1000,700);
         setContentPane(HomePage);
+        setResizable(false);
+        setTitle("Maria's Recipe Book");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }

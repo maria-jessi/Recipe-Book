@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="Font ar size fixed kora hoice.">
-      <change afterPath="$PROJECT_DIR$/src/Book/SmallBtn.java" afterDir="false" />
+    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="Edit button is fixed. Everything is working fine.&#10;&#10;New function added &quot;View()&quot;. This is to simplify the previous code.&#10;&#10;Little changes has been made to the UI and initialization.">
+      <change afterPath="$PROJECT_DIR$/src/Book/TextArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/SmallBtn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655480069123</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Edit button is fixed. Everything is working fine.&#10;&#10;New function added &quot;View()&quot;. This is to simplify the previous code.&#10;&#10;Little changes has been made to the UI and initialization.">
+      <created>1655560401618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655560401619</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +180,7 @@
     <MESSAGE value="foodList create koreci. &#10;foodList ar seeBounds and setFont create kora hoice." />
     <MESSAGE value="Label,ingredients,procedure ai gola create kora hoice" />
     <MESSAGE value="Font ar size fixed kora hoice." />
-    <option name="LAST_COMMIT_MESSAGE" value="Font ar size fixed kora hoice." />
+    <MESSAGE value="Edit button is fixed. Everything is working fine.&#10;&#10;New function added &quot;View()&quot;. This is to simplify the previous code.&#10;&#10;Little changes has been made to the UI and initialization." />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit button is fixed. Everything is working fine.&#10;&#10;New function added &quot;View()&quot;. This is to simplify the previous code.&#10;&#10;Little changes has been made to the UI and initialization." />
   </component>
 </project>
