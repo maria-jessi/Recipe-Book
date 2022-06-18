@@ -35,7 +35,7 @@ public class MainPage extends JPanel {
         setBackground(Color.WHITE);
         exit.setBounds(875,600,100,40);
         try {
-            Image img = ImageIO.read(getClass().getResource("bg.png"));
+            Image img = ImageIO.read(getClass().getResource("bg.jpg"));
             background.setIcon(new ImageIcon(img));
         } catch (IOException ex) { throw new RuntimeException(ex);}
 
