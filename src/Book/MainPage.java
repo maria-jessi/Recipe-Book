@@ -102,7 +102,7 @@ public class MainPage extends JPanel {
                         "Remove with a slotted spoon; drain on paper towels. Immediately sprinkle with seasoning mixture. Store in an airtight container.");
 
         add(
-                "Lentil",
+                "Spatchcock Chicken",
                 "2 (3 1/2) pound whole chickens, wingtips removed\n" +
                         "2 teaspoons salt\n" +
                         "1 teaspoon dried tarragon\n" +
