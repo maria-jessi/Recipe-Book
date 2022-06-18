@@ -17,7 +17,7 @@ public class MainPage extends JPanel {
 
     Title Header=new Title();
     Label label1=new Label("Name",100,150);
-    Label label2=new Label("Ingredients",200,225);
+    Label label2=new Label("Ingredients",215,225);
     Label label3=new Label("Procedure",675,75);
 
     ArrayList<String> foodName = new ArrayList<>();
