@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="Exit Button Moved">
+    <list default="true" id="cb8a26c2-adfd-4eac-8ec5-584fadf328d8" name="Changes" comment="2 new recipes added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/MainPage.java" afterDir="false" />
     </list>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655572879223</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2 new recipes added">
+      <created>1655576088554</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655576088554</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +235,7 @@
     <MESSAGE value="Window Borders removed.&#10;Positioned to Center." />
     <MESSAGE value="Background Updated.&#10;Exit Button added" />
     <MESSAGE value="Exit Button Moved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exit Button Moved" />
+    <MESSAGE value="2 new recipes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 new recipes added" />
   </component>
 </project>
