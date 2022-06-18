@@ -5,7 +5,6 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class MainPage extends JPanel {
-    JTextField nameText=new JTextField();
     SmallBtn add=new SmallBtn("New",0);
     SmallBtn delete=new SmallBtn("Delete",1);
     SmallBtn edit=new SmallBtn("Edit",2);
@@ -15,15 +14,16 @@ public class MainPage extends JPanel {
 
     Title Header=new Title();
     Label label1=new Label("Name",30,80);
-    ArrayList<String> foodName = new ArrayList<>();
     Label label2=new Label("Ingredients",30,150);
-    ArrayList<String> foodIngredients = new ArrayList<>();
     Label label3=new Label("Procedure",460,10);
+
+    ArrayList<String> foodName = new ArrayList<>();
+    ArrayList<String> foodIngredients = new ArrayList<>();
     ArrayList<String> foodProcedure = new ArrayList<>();
     JComboBox<String> foodList = new JComboBox<>();
     JTextArea ingredientsText=new JTextArea();
     JTextArea procedureText=new JTextArea();
-
+    JTextField nameText=new JTextField();
 
 
     public MainPage(){
@@ -34,7 +34,6 @@ public class MainPage extends JPanel {
         doneEdit.setVisible(false);
         cancel.setVisible(false);
         nameText.setVisible(false);
-
 
         add(Header);
         add(label1);
@@ -51,30 +50,25 @@ public class MainPage extends JPanel {
         add(cancel);
         add(nameText);
 
-        foodList.setBounds(110,80,300,50);
-        foodList.setFont(new Font("Serif", Font.BOLD, 20));
-        foodList.setEditable(true);
+        foodList.setBounds(110,80,315,50);
         ingredientsText.setBounds(25,200,405,400);
         procedureText.setBounds(455,65,510,570);
-        procedureText.setFont(new Font("Serif",Font.BOLD,20));
-        ingredientsText.setFont(new Font("Serif",Font.BOLD,20));
         nameText.setBounds(110,80,300,50);
+
+        nameText.setFont(new Font("Serif", Font.BOLD, 20));
+        procedureText.setFont(new Font("Serif",Font.BOLD,18));
+        ingredientsText.setFont(new Font("Serif",Font.BOLD,18));
+        foodList.setFont(new Font("Serif", Font.BOLD, 20));
+
         procedureText.setEditable(false);
-        ingredientsText.setEditable(false
-        );
-
-
+        ingredientsText.setEditable(false);
+        foodList.setEditable(true);
 
         add("Omelette","Egg, Oill","Just cook");
         add("Lentil","Onion,Lentil,Oil,Water","hfgkryeduf");
+        view();
 
-        foodList.addActionListener(e -> {
-            int x=foodList.getSelectedIndex();
-            if(x>-1){
-                ingredientsText.setText(foodIngredients.get(x));
-                procedureText.setText(foodProcedure.get(x));
-            }
-        });
+        foodList.addActionListener(e -> view());
 
         delete.addActionListener(e -> {
             int x=foodList.getSelectedIndex();
@@ -84,7 +78,6 @@ public class MainPage extends JPanel {
         });
 
         add.addActionListener(e -> {
-
             foodList.setVisible(false);
             delete.setVisible(false);
             edit.setVisible(false);
@@ -115,7 +108,6 @@ public class MainPage extends JPanel {
             ingredientsText.setText("");
             procedureText.setEditable(false);
             ingredientsText.setEditable(false);
-
         });
 
         cancel.addActionListener(e -> {
@@ -129,8 +121,6 @@ public class MainPage extends JPanel {
             doneAdd.setVisible(false);
             doneEdit.setVisible(false);
 
-            procedureText.setText("");
-            ingredientsText.setText("");
             procedureText.setEditable(false);
             ingredientsText.setEditable(false);
         });
@@ -149,10 +139,12 @@ public class MainPage extends JPanel {
             ingredientsText.setEditable(true);
             nameText.setText(foodList.getItemAt(foodList.getSelectedIndex()));
         });
+
+
         doneEdit.addActionListener(e -> {
-            foodName.add(nameText.getText());
-            foodIngredients.add(ingredientsText.getText());
-            foodProcedure.add(procedureText.getText());
+            foodName.set(foodList.getSelectedIndex(),nameText.getText());
+            foodIngredients.set(foodList.getSelectedIndex(),ingredientsText.getText());
+            foodProcedure.set(foodList.getSelectedIndex(),procedureText.getText());
 
             foodList.setVisible(true);
             delete.setVisible(true);
@@ -167,11 +159,10 @@ public class MainPage extends JPanel {
             ingredientsText.setText("");
             procedureText.setEditable(false);
             ingredientsText.setEditable(false);
-
+            update();
         });
-
-
     }
+
     public void update(){
         foodList.removeAllItems();
         for (int i = 0; i < foodName.size(); i++) {
@@ -191,5 +182,12 @@ public class MainPage extends JPanel {
         procedureText.setText("");
         ingredientsText.setText("");
         update();
+    }
+    public void view(){
+        int x=foodList.getSelectedIndex();
+        if(x>-1){
+            ingredientsText.setText(foodIngredients.get(x));
+            procedureText.setText(foodProcedure.get(x));
+        }
     }
 }
