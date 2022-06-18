@@ -33,7 +33,7 @@ public class MainPage extends JPanel {
         setLayout(null);
         setBounds(0,0,1000,700);
         setBackground(Color.WHITE);
-        //exit.setForeground(Color.black);
+        exit.setBounds(875,600,100,40);
         try {
             Image img = ImageIO.read(getClass().getResource("bg.png"));
             background.setIcon(new ImageIcon(img));
