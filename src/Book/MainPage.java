@@ -1,7 +1,9 @@
 package Book;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class MainPage extends JPanel {
@@ -13,9 +15,9 @@ public class MainPage extends JPanel {
     SmallBtn cancel=new SmallBtn("Cancel",1);
 
     Title Header=new Title();
-    Label label1=new Label("Name",30,80);
-    Label label2=new Label("Ingredients",170,150);
-    Label label3=new Label("Procedure",700,50);
+    Label label1=new Label("Name",100,150);
+    Label label2=new Label("Ingredients",200,210);
+    Label label3=new Label("Procedure",675,75);
 
     ArrayList<String> foodName = new ArrayList<>();
     ArrayList<String> foodIngredients = new ArrayList<>();
@@ -24,22 +26,27 @@ public class MainPage extends JPanel {
     JTextArea ingredientsText=new JTextArea();
     JTextArea procedureText=new JTextArea();
     JTextField nameText=new JTextField();
-    JTextArea line = new JTextArea();
+    JLabel background = new JLabel();
 
     public MainPage(){
         setLayout(null);
         setBounds(0,0,1000,700);
         setBackground(Color.WHITE);
+        try {
+            Image img = ImageIO.read(getClass().getResource("bg.png"));
+            background.setIcon(new ImageIcon(img));
+        } catch (IOException ex) { throw new RuntimeException(ex);}
 
         doneAdd.setVisible(false);
         doneEdit.setVisible(false);
         cancel.setVisible(false);
         nameText.setVisible(false);
+        nameText.setBorder(BorderFactory.createLineBorder(Color.BLACK,1));
 
-        foodList.setBounds(105,80,320,50);
-        ingredientsText.setBounds(25,200,450,400);
-        procedureText.setBounds(515,100,460,500);
-        nameText.setBounds(110,80,300,50);
+        foodList.setBounds(180,160,250,35);
+        ingredientsText.setBounds(100,270,350,300);
+        procedureText.setBounds(555,150,370,450);
+        nameText.setBounds(180,160,250,35);
 
         nameText.setFont(new Font("Serif", Font.BOLD, 20));
         procedureText.setFont(new Font("Serif",Font.BOLD,18));
@@ -50,12 +57,12 @@ public class MainPage extends JPanel {
         ingredientsText.setEditable(false);
         foodList.setEditable(true);
 
-        line.setBounds(485,30,1,600);
-        line.setBackground(Color.BLACK);
-        line.setText("");
-        line.setEditable(false);
+        procedureText.setOpaque(false);
+        ingredientsText.setOpaque(false);
+        foodList.setOpaque(false);
+        nameText.setOpaque(false);
+        background.setBounds(0,0,1000,700);
 
-        add(line);
         add(Header);
         add(label1);
         add(label2);
@@ -70,6 +77,7 @@ public class MainPage extends JPanel {
         add(doneEdit);
         add(cancel);
         add(nameText);
+        add(background);
 
         add("Omelette","Egg, Oill","Just cook");
         add("Lentil","Onion,Lentil,Oil,Water","hfgkryeduf");
@@ -100,7 +108,6 @@ public class MainPage extends JPanel {
             procedureText.setEditable(true);
             ingredientsText.setEditable(true);
 
-            line.setVisible(false);
             procedureText.setBorder(BorderFactory.createLineBorder(Color.BLACK,1));
             ingredientsText.setBorder(BorderFactory.createLineBorder(Color.BLACK,1));
         });
@@ -121,7 +128,6 @@ public class MainPage extends JPanel {
 
             foodList.setSelectedIndex(foodName.size()-1);
 
-            line.setVisible(true);
             procedureText.setBorder(BorderFactory.createLineBorder(Color.WHITE,0));
             ingredientsText.setBorder(BorderFactory.createLineBorder(Color.WHITE,0));
         });
@@ -140,7 +146,6 @@ public class MainPage extends JPanel {
             procedureText.setEditable(false);
             ingredientsText.setEditable(false);
 
-            line.setVisible(true);
             procedureText.setBorder(BorderFactory.createLineBorder(Color.WHITE,0));
             ingredientsText.setBorder(BorderFactory.createLineBorder(Color.WHITE,0));
         });
@@ -159,7 +164,6 @@ public class MainPage extends JPanel {
             ingredientsText.setEditable(true);
             nameText.setText(foodList.getItemAt(foodList.getSelectedIndex()));
 
-            line.setVisible(false);
             procedureText.setBorder(BorderFactory.createLineBorder(Color.BLACK,1));
             ingredientsText.setBorder(BorderFactory.createLineBorder(Color.BLACK,1));
         });
@@ -188,7 +192,6 @@ public class MainPage extends JPanel {
             update();
             foodList.setSelectedIndex(x);
 
-            line.setVisible(true);
             procedureText.setBorder(BorderFactory.createLineBorder(Color.WHITE,0));
             ingredientsText.setBorder(BorderFactory.createLineBorder(Color.WHITE,0));
 
