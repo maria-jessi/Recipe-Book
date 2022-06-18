@@ -24,7 +24,6 @@ public class MainPage extends JPanel {
     JTextArea ingredientsText=new JTextArea();
     JTextArea procedureText=new JTextArea();
     JTextField nameText=new JTextField();
-
     JTextArea line = new JTextArea();
 
     public MainPage(){
