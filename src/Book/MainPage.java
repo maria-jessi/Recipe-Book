@@ -96,12 +96,28 @@ public class MainPage extends JPanel {
                         "1-1/2 teaspoons celery salt\n" +
                         "1-1/2 teaspoons pepper\n" +
                         "Oil for deep-fat frying\n",
-                "JUsing a vegetable peeler or metal cheese slicer, cut potatoes into very thin slices. Place in a large bowl; add ice water and salt. Soak for 30 minutes.\n" +
+                "Using a vegetable peeler or metal cheese slicer, cut potatoes into very thin slices. Place in a large bowl; add ice water and salt. Soak for 30 minutes.\n" +
                         "Drain potatoes; place on paper towels and pat dry. In a small bowl, combine the garlic powder, celery salt and pepper; set aside.\n" +
                         "In a cast-iron or other heavy skillet, heat 1-1/2 in. oil to 375°. Fry potatoes in batches until golden brown, 3-4 minutes, stirring frequently.\n" +
                         "Remove with a slotted spoon; drain on paper towels. Immediately sprinkle with seasoning mixture. Store in an airtight container.");
 
-        add("Lentil","Onion,Lentil,Oil,Water","hfgkryeduf");
+        add(
+                "Lentil",
+                "2 (3 1/2) pound whole chickens, wingtips removed\n" +
+                        "2 teaspoons salt\n" +
+                        "1 teaspoon dried tarragon\n" +
+                        "1 teaspoon paprika\n" +
+                        "¼ teaspoon black pepper\n" +
+                        "4 teaspoons olive oil\n" +
+                        "2 lemons, thinly sliced and seeded ",
+                "Preheat oven to 450 degrees F (230 degrees C). " +
+                        "Line a large rimmed baking sheet with foil.\n" +
+                        "Starting at the tail end, cut along both sides of backbone with kitchen shears. " +
+                        "Remove backbone. Grabbing hold of both sides of the chicken, open it like a book. " +
+                        "Flatten chicken and transfer to one short end of the prepared baking sheet.\n" +
+                        "Combine salt, tarragon, paprika, and pepper in a small bowl. Stir in oil. " +
+                        "Roast until an instant-read thermometer inserted into thickest part of breast reads 165 degrees F, about 35 minutes. "
+        );
         view();
 
 
