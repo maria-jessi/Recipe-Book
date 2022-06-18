@@ -11,6 +11,8 @@ public class Window extends JFrame {
         setResizable(false);
         setTitle("Maria's Recipe Book");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        setLocationRelativeTo(null);
         setVisible(true);
     }
 }
